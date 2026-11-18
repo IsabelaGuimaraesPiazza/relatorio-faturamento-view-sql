@@ -1,0 +1,12 @@
+CREATE TABLE VENDAS_CURSOS (
+    id_venda INT PRIMARY KEY,
+    nome_curso VARCHAR(100),
+    categoria VARCHAR(50),
+    valor DECIMAL(10,2)
+);
+
+INSERT INTO VENDAS_CURSOS VALUES (1, 'SQL Completo', 'Dados', 200.00);
+INSERT INTO VENDAS_CURSOS VALUES (2, 'Python para Dados', 'Dados', 250.00);
+INSERT INTO VENDAS_CURSOS VALUES (3, 'React do Zero', 'Frontend', 300.00);
+INSERT INTO VENDAS_CURSOS VALUES (4, 'Power BI Avançado', 'Dados', 150.00);
+INSERT INTO VENDAS_CURSOS VALUES (5, 'HTML e CSS', 'Frontend', 100.00);
